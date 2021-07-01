@@ -8,13 +8,14 @@ header{
     position: fixed;
     background-color: #ffffff;
     width: 100%;
+    z-index: 7;
 
 }
 body{
      font-family: 'Open Sans', sans-serif;
 }
 main{
-    padding: 80px 0;
+    padding: 70px 0;
 }
 .clearfix::after{
     content: "";
@@ -28,6 +29,22 @@ main{
 a{
     text-decoration: none;
 }
+/* type */
+h1{
+    font-weight: 800;
+    font-size: 65px;
+}
+.sez-1 h2{
+    font-size: 35px;
+    padding: 40px 0;
+}
+.col-1 h3{
+    text-align: center;
+    padding: 20px 0;
+    border: 2px solid #d0d0d3;
+}
+/* /type */
+
 
  /*button*/
  .btm{
@@ -72,21 +89,19 @@ header li{
 
 
  /* MAIN */
- 
+ /* sezione-hero */
 .hero{
+    padding-top: 30px;
     background-color: #b4d0e7;
     /* width: 100%; */
     height: 600px;
 }
 
  .hero .row-2{
-    bottom: -40px;
+    /* bottom: -40px; */
     position: relative;
 } 
-h1{
-    font-weight: 800;
-    font-size: 65px;
-}
+
 
 
 .text-row-2, .img-row-2{  
@@ -123,3 +138,40 @@ margin:30px 0;
 .img-row-2 img{
     width: 100%;  
 }
+ /* /sezione -hero */
+
+
+ /* sezione1*/
+
+ .sez-1{
+     margin-top: 100px;
+     /* background-color: coral;
+     border: 2px solid black; */
+ }
+
+
+ /* /sezione1*/
+
+ /* sezione2*/
+
+.sez-2{
+ padding: 50px 0;
+}
+.col-1, .col-2, .col-3{
+float: left;
+background-color: darkblue;
+/* border: 2px solid black; */
+width: calc((100% - 150px) / 3) ;
+
+}
+
+.col-2{
+    margin: 0 75px;
+}
+/* .container-col{
+    width: 80%;
+    margin:auto;
+} */
+
+ /* /sezione2*/
+ 
