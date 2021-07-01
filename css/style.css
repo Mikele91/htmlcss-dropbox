@@ -12,8 +12,16 @@ body{
     display: table;
     clear: both;
 }
+.container{
+    width: 80%;
+    margin:auto;
+}
+a{
+    text-decoration: none;
+}
+
  /*button*/
- .btm.nav-btm{
+ .btm{
      background-color: blue;
      padding: 5px 10px;
      color: white;
@@ -52,9 +60,7 @@ header li{
     padding: 0 10px;
 }
 
- header a{
-     text-decoration: none;
- }
+ 
  .logo-small{
      padding: 20px;
  }
@@ -68,19 +74,47 @@ header li{
     height: 600px;
 }
 
-.hero .row-1{
-    width: 80%;
-    margin: auto;
-}
+ .hero .row-2{
+    bottom: -40px;
+    position: relative;
+} 
 h1{
     font-weight: 800;
     font-size: 65px;
 }
 
-.text-row-2, .img-row-2{
-    width: 50%;
+
+.text-row-2, .img-row-2{  
     float: left;
-    background-color: yellow;
-    border: 2px solid black;
+    /* background-color: yellow;
+    border: 2px solid black; */
 }
+.img-row-2{
+    width: calc(70% - 40px);
+    padding-left:  40px;
+}
+
+.text-row-2{
+    width: 30%;
+}
+.text-row-2 > p, .img-row-2 img {
+margin:30px 0;
+}
+.click-here{
+ padding: 40px 0;
+
+}
+.click-here a {
+    color: black;
+}
+
+
+.fa-arrow-down{
+    margin:20px 10px;
+    font-size: 28px;
    
+}
+
+.img-row-2 img{
+    width: 100%;  
+}
