@@ -7,6 +7,11 @@
 body{
      font-family: 'Open Sans', sans-serif;
 }
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
  /*button*/
  .btm.nav-btm{
      background-color: blue;
@@ -55,10 +60,27 @@ header li{
  }
 
 
+ /* MAIN */
+ 
+.hero{
+    background-color: #b4d0e7;
+    /* width: 100%; */
+    height: 600px;
+}
 
-  
+.hero .row-1{
+    width: 80%;
+    margin: auto;
+}
+h1{
+    font-weight: 800;
+    font-size: 65px;
+}
+
+.text-row-2, .img-row-2{
+    width: 50%;
+    float: left;
+    background-color: yellow;
+    border: 2px solid black;
+}
    
-
-
-
-    
