@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* comon */
+body{
+     font-family: 'Open Sans', sans-serif;
+}
+ /*button*/
+ .btm.nav-btm{
+     background-color: blue;
+     padding: 5px 10px;
+     color: white;
+ }
+
+/* header */
+header{
+    background-color: #ffffff;
+    width: 100%;
+
+}
+ .nav-header-1{  
+    text-align: left;
+    width: 50%;
+    /* anche se gia di default per ricordarci */
+}
+
+.nav-header-2{  
+    text-align: right;
+    width: 50%;
+    padding-right: 30px;
+    
+}
+/* attributi nav */
+    
+header ul, header li, .logo-small, .nav-header-1, .nav-header-2 {
+    display: inline-block;
+}
+
+header ul, .logo-small{
+    vertical-align: middle;
+    
+}
+
+header li{
+    padding: 0 10px;
+}
+
+ header a{
+     text-decoration: none;
+ }
+ .logo-small{
+     padding: 20px;
+ }
+
+
+
+  
+   
+
+
+
+    
