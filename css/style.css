@@ -179,7 +179,7 @@ width: calc((100% - 150px) / 3) ;
     margin: 0 75px;
 }
 
- .col h3, .col-2 h3, .col h3{
+ .col h3, .col-2 h3, .col h3 {
     text-align: center;
     padding: 20px 0;
     border-bottom: 1px solid #d0d0d3;
@@ -217,7 +217,13 @@ width: calc((100% - 150px) / 3) ;
  .fa-check{
      color: blue;
  }
- 
-
  /* /sezione2*/
+
+
+ /*sezione3*/
+ .row-sez-3{
+     padding: 250px 0;
+ }
+ /*/ sezione3*/
+
  
