@@ -226,4 +226,11 @@ width: calc((100% - 150px) / 3) ;
  }
  /*/ sezione3*/
 
- 
+
+ /* sezione4 */
+.container > h3{
+    text-align: center;
+    border: 1px solid #d0d0d3;
+    
+}
+ /* sezione4 */
