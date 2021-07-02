@@ -315,3 +315,26 @@ width: calc((100% - 150px) / 3) ;
      .publicity a{
        
      }
+
+     /* sezione 6 box quadrati */
+     .box-col, .box-col-2{
+        
+         float: left;
+         width: calc(60%/2) ;
+     }
+     .box-col-2{
+        width:40%; 
+     }
+     .box-col-2 img{
+         width: 90px;
+
+     }
+
+     /* quadrati */
+     .row-box{
+         width: 100%;
+     }
+     .square{
+
+         width: calc(100% / 2);
+     }
