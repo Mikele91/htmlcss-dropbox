@@ -179,11 +179,11 @@ width: calc((100% - 150px) / 3) ;
     margin: 0 75px;
 }
 
-.col-1 h3, .col-2 h3, .col-3, h3{
+ .col h3, .col-2 h3, .col h3{
     text-align: center;
     padding: 20px 0;
     border-bottom: 1px solid #d0d0d3;
-}
+} 
 
 
 /*section-col-1*/
@@ -197,7 +197,7 @@ width: calc((100% - 150px) / 3) ;
 .list-1-sez-1 li{
     padding: 8px 0;
 }
-.col-1 .btm, .col-2.btm, .col-3.btm{
+.col .btm, .col-2.btm, .col .btm{
     margin: 30px 0;
     color: white;
 }
