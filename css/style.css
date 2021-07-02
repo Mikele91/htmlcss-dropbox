@@ -207,7 +207,9 @@ width: calc((100% - 150px) / 3) ;
      margin:20px 0;
  }
 
-
+ .fa-check{
+     color: blue;
+ }
  
 
  /* /sezione2*/
