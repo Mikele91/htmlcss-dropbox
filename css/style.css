@@ -29,6 +29,9 @@ main{
 a{
     text-decoration: none;
 }
+a.underline{
+    text-decoration: underline;
+}
 /* type */
 h1{
     font-weight: 800;
@@ -38,10 +41,9 @@ h1{
     font-size: 35px;
     padding: 40px 0;
 }
-.col-1 h3{
-    text-align: center;
-    padding: 20px 0;
-    border: 2px solid #d0d0d3;
+
+ul{
+    list-style-type: none;
 }
 /* /type */
 
@@ -89,6 +91,7 @@ header li{
 
 
  /* MAIN */
+
  /* sezione-hero */
 .hero{
     padding-top: 30px;
@@ -128,7 +131,6 @@ margin:30px 0;
     color: black;
 }
 
-
 .fa-arrow-down{
     margin:20px 10px;
     font-size: 28px;
@@ -154,13 +156,15 @@ margin:30px 0;
 
  /* sezione2*/
 
+ 
 .sez-2{
  padding: 50px 0;
 }
-.col-1, .col-2, .col-3{
+.col{
 float: left;
-background-color: darkblue;
-/* border: 2px solid black; */
+min-height: 1100px;
+border: 1px solid #d0d0d3;
+    
 width: calc((100% - 150px) / 3) ;
 
 }
@@ -168,10 +172,43 @@ width: calc((100% - 150px) / 3) ;
 .col-2{
     margin: 0 75px;
 }
-/* .container-col{
-    width: 80%;
-    margin:auto;
-} */
+
+.col-1 h3, .col-2 h3, .col-3, h3{
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #d0d0d3;
+}
+
+
+/*section-col-1*/
+.rate h4, .rate .prize, .rate span{
+    padding: 8px;
+}
+.list-1-sez-1{
+    padding: 20px 0;
+}
+.list-1-sez-1 li{
+    padding: 8px 0;
+}
+.col-1 .btm, .col-2.btm, .col-3.btm{
+    margin: 30px 0;
+    color: white;
+}
+ hr{
+     margin: 50px 0;
+    width: 18%;
+    border-top:1px solid grey;
+    
+} 
+.fl-list li{
+    padding: 20px 0;
+}
+ .btm-col{
+     margin:20px 0;
+ }
+
+
+ 
 
  /* /sezione2*/
  
