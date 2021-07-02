@@ -32,6 +32,7 @@ a{
 }
 a.underline{
     text-decoration: underline;
+    color: blue;
 }
 /* type */
 h1{
@@ -178,6 +179,7 @@ width: calc((100% - 150px) / 3) ;
 .col-2{
     margin: 0 75px;
 }
+/* utilizata anche per il box a 6 img */
 
  .col h3, .col-2 h3, .col h3 {
     text-align: center;
@@ -285,6 +287,31 @@ width: calc((100% - 150px) / 3) ;
         background-color: white;
         
         border: 1px solid #d0d0d3;
-
-
     }
+
+
+    /* sezione 6 Block 6 img */
+.h2-block {
+    font-size: 40px ;
+    
+}
+    .card-block{
+        padding-top: 70px;
+        float: left;
+        width: calc((100% - 150px) / 3) ;
+    }
+    .card-block img{
+        width: 100%;
+    }
+    .card-block h4{
+        padding: 20px 0;
+        font-size: 25px;
+     }
+
+     .publicity{
+    padding: 200px 0;
+    
+     }
+     .publicity a{
+       
+     }
