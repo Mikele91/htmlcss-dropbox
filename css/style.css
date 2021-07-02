@@ -27,6 +27,7 @@ main{
     margin:auto;
 }
 a{
+    
     text-decoration: none;
 }
 a.underline{
@@ -53,6 +54,11 @@ ul{
      background-color: blue;
      padding: 5px 10px;
      color: white;
+     text-align: center;
+
+ }
+ .btm a{
+     color:white;
  }
 
 /* header */
@@ -182,7 +188,7 @@ width: calc((100% - 150px) / 3) ;
 
 /*section-col-1*/
 .rate h4, .rate .prize, .rate span{
-    padding: 8px;
+    padding: 8px 0;
 }
 .list-1-sez-1{
     padding: 20px 0;
