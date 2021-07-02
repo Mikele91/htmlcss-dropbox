@@ -27,8 +27,8 @@ main{
     margin:auto;
 }
 a{
+ text-decoration: none;
     
-    text-decoration: none;
 }
 a.underline{
     text-decoration: underline;
@@ -234,3 +234,32 @@ width: calc((100% - 150px) / 3) ;
     
 }
  /* sezione4 */
+ .office-title{
+     padding: 10px;
+ }
+ .office{
+     padding: 50px 0;
+     border-bottom: 1px solid #d0d0d3;
+     border-left: 1px solid #d0d0d3;
+     border-right: 1px solid #d0d0d3;
+
+
+ }
+ .text-office, .btm-office{
+    float: left;
+ }
+
+ .text-office{
+     width: 70%;
+     padding-left: 30px;
+ }
+ .btm-office{
+    
+    margin-right: 30px;
+     float: right;
+     width: calc(30% - 30px) ;
+    }
+    .text-office p{
+        padding: 20px 0;
+
+    }
