@@ -404,7 +404,7 @@ width: calc((100% - 150px) / 3) ;
         background-color: #b4d0e7;
     }
     .box__free-treal{
-        padding: 90px;
+        padding: 90px 0;
     }
 
     .btm-free-treal{
@@ -426,4 +426,64 @@ width: calc((100% - 150px) / 3) ;
         width: 30%;
         vertical-align: top;
 
+    }
+
+    /* sezione lista  */
+    .quest-title{
+    padding: 30px 0;
+    font-size: 2em;
+    font-weight: 800;
+  
+    }
+    .questsions{
+        font-weight: bold; 
+        padding: 60px 0;
+    }
+    .quest-list{
+        padding: 40px 0;
+        border-top: 1px solid #dedee0;
+        position: relative;
+    }   
+    ul.list:last-child{
+
+        border-bottom: 1px solid #dedee0;
+    }
+    .fa-angle-down{
+        position: absolute ;
+        right: 0;
+        right: 20px;
+    }
+
+    /* footer */
+
+    footer{
+        background-color: black;
+        color: white;
+    }
+    .text-footer{
+        padding: 20px 0;
+    }
+
+    .col-footer{
+        float: left;
+        width: 20%;
+        padding: 50px 0;
+
+    }
+    .list-footer{
+    padding-top:  10px ;
+
+    }
+    .nav-footer{
+    color: white;
+    padding: 20px 0;
+    }
+
+    .lenguage{
+        padding: 10px;
+    }
+    .row-footer-2 div {
+        padding: 40px 0;
+        display: inline-block;
+        border-top: 1px solid white;
     }
