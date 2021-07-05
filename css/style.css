@@ -22,8 +22,12 @@ main{
     display: table;
     clear: both;
 }
-.container{
+.container-hero{
     width: 80%;
+    margin:auto;
+}
+.container{
+    width: 70%;
     margin:auto;
 }
 a{
