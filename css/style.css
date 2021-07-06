@@ -275,12 +275,13 @@ width: calc((100% - 150px) / 3) ;
      }
     .partnership img, .text-partnership{
         float: left ;
-        padding: 0 50px;
         width:calc(65% - 100px) ;
     }
     .text-partnership{
         word-spacing:5px;
         width: 35%;
+        padding-left: 50px; 
+
     }
     .text-partnership h3, .text-partnership p{
         padding: 30px 0;
@@ -373,6 +374,11 @@ width: calc((100% - 150px) / 3) ;
     #square-green{
         background-color: #A2D39B;
     }
+    #square-green :hover{
+       /* border: 5px solid  #d0e9cd; */
+       
+    } 
+
     #square-brown{
         background-color: #61082B;
     }
